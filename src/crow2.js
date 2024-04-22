@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const app = express();
 const port = process.env.PORT || 3000;
 
-let news = [];
+export let news = [];
 
 // 스크래핑 함수
 async function scrapeData() {
